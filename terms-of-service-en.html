@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>terms-of-service-en.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="thoughtssky-terms-of-service">ThoughtsSky Terms of Service</h1>
+<p><strong>Effective date:</strong> May 16, 2026<br>
+<strong>Last updated:</strong> May 16, 2026</p>
+<hr>
+<h2 id="1-acceptance-of-terms">1. Acceptance of Terms</h2>
+<p>Welcome to ThoughtsSky (the “App”). The App is provided by individual developer Hung Chen-Jung (“we,” “us,” or “Developer”).</p>
+<p>By downloading, installing, registering for, or using the App, you agree to these Terms of Service (“Terms”) and our <a href="privacy-policy-en.md">Privacy Policy</a>. If you do not agree, do not use the App.</p>
+<hr>
+<h2 id="2-description-of-service">2. Description of Service</h2>
+<p>ThoughtsSky helps you record, organize, and review personal thoughts. Features include (without limitation):</p>
+<ul>
+<li>Recording thoughts by text or voice (gray / golden / white cloud categories);</li>
+<li>Calendar views and statistics (Treasure Chest);</li>
+<li>Reframing negative thoughts into positive statements (gray cloud to golden cloud);</li>
+<li>Optional tags for life areas, emotions, and thinking patterns;</li>
+<li>Optional paid subscription features (Premium).</li>
+</ul>
+<p>The App is a <strong>self-reflection and personal organization tool</strong>. It does not provide professional counseling or medical diagnosis.</p>
+<hr>
+<h2 id="3-important-disclaimer-not-medical--not-emergency-services">3. Important Disclaimer (Not Medical / Not Emergency Services)</h2>
+<ul>
+<li>The App is <strong>not</strong> medical care, psychotherapy, counseling, or any professional mental health service, and <strong>cannot</strong> replace advice, diagnosis, or treatment from qualified professionals.</li>
+<li>The App does <strong>not</strong> provide emergency assistance. If you or someone else is at risk of self-harm, suicide, or immediate harm, contact local emergency services or a crisis hotline immediately.</li>
+<li>You are solely responsible for decisions you make based on your use of the App; the Developer is not liable for actions you take based on App content.</li>
+</ul>
+<hr>
+<h2 id="4-eligibility">4. Eligibility</h2>
+<ul>
+<li>You must be at least <strong>13 years old</strong> (or the minimum age required in your jurisdiction) to use the App.</li>
+<li>You agree to provide accurate, current registration information and to keep your account credentials secure. Activity under your account is treated as yours unless you prove otherwise.</li>
+<li>You may not impersonate others or use another person’s account without authorization.</li>
+</ul>
+<hr>
+<h2 id="5-accounts">5. Accounts</h2>
+<ul>
+<li>You may register with email and password, or use anonymous sign-in (features may be limited).</li>
+<li>You may <strong>delete your account</strong> from the Account screen in the App. We will delete cloud thought data and your Firebase authentication account associated with your account. <strong>This cannot be undone.</strong></li>
+<li>If you violate these Terms, infringe others’ rights, or engage in unlawful or abusive conduct, we may suspend or terminate your account and access, except where prohibited by law.</li>
+</ul>
+<hr>
+<h2 id="6-user-content">6. User Content</h2>
+<h3 id="61-your-rights">6.1 Your Rights</h3>
+<p>You retain your rights in content you input, upload, or store in the App (“User Content”). You represent that you have the necessary rights and that your content does not infringe third-party rights.</p>
+<h3 id="62-license-to-us">6.2 License to Us</h3>
+<p>To provide, maintain, and improve the service, you grant us a non-exclusive, worldwide, royalty-free license to store, process, back up, sync, and display User Content only as needed to operate the App for you when you are signed in. This license ends when you delete content or your account, subject to reasonable technical and legal retention (e.g., backup purge).</p>
+<h3 id="63-prohibited-conduct">6.3 Prohibited Conduct</h3>
+<p>You may not use the App to upload, transmit, or store content, or engage in conduct, that:</p>
+<ul>
+<li>Violates law or infringes intellectual property, privacy, reputation, or other rights;</li>
+<li>Harasses, threatens, promotes hatred or discrimination, is sexually explicit, or exploits children;</li>
+<li>Contains malware, unauthorized advertising, or spam;</li>
+<li>Attempts to hack, disrupt, or overload our systems or third-party services.</li>
+</ul>
+<h3 id="64-technical-limits">6.4 Technical Limits</h3>
+<p>Each thought is limited to <strong>500 characters</strong>; tag counts and other limits follow in-app guidance. We may adjust technical limits to maintain service quality.</p>
+<hr>
+<h2 id="7-subscriptions-and-payments-premium">7. Subscriptions and Payments (Premium)</h2>
+<ul>
+<li>Some features (e.g., viewing historical calendar dates, transforming gray clouds on non-current dates) require a <strong>monthly subscription</strong> (Premium) through <strong>Google Play</strong>. Price, currency, and plan details are shown on Google Play at checkout.</li>
+<li>Subscriptions may <strong>auto-renew</strong> until you cancel in your Google Play account settings. Renewal charges apply per Google’s rules before the end of the current period.</li>
+<li><strong>Refunds, cancellation, and billing disputes</strong> are handled under <a href="https://support.google.com/googleplay/answer/2479637">Google Play refund policies</a> and applicable store terms. Contact Google or follow its process. The Developer does not directly process payment card data.</li>
+<li>You may use <strong>Restore purchases</strong> in the Account screen to restore subscription status on a new device or after reinstall (same Google Play account required).</li>
+<li>We may change free and paid feature scope; material changes will be communicated reasonably.</li>
+</ul>
+<hr>
+<h2 id="8-intellectual-property">8. Intellectual Property</h2>
+<p>The App’s software, interface design, icons, text (excluding your User Content), trademarks, and other materials are owned by the Developer or licensors and protected by copyright and other laws, unless otherwise noted.</p>
+<p>Without prior written consent, you may not copy, modify, distribute, sell, rent, reverse engineer, or create derivative works.</p>
+<hr>
+<h2 id="9-changes-and-availability">9. Changes and Availability</h2>
+<p>We may update, change, or discontinue features (including free or paid features) and perform maintenance that temporarily interrupts service. We strive to keep the service stable but <strong>do not guarantee</strong> uninterrupted, error-free, or fully satisfactory operation.</p>
+<p>We are not liable, to the extent permitted by law, for interruptions caused by networks, third-party services (e.g., Firebase, Google Play), or force majeure.</p>
+<hr>
+<h2 id="10-limitation-of-liability">10. Limitation of Liability</h2>
+<p>To the maximum extent permitted by law:</p>
+<ul>
+<li>The App is provided “as is” and “as available.” Except as required by law, we disclaim all express and implied warranties, including merchantability and fitness for a particular purpose.</li>
+<li>We are not liable for <strong>indirect, incidental, special, consequential, or punitive damages</strong> (including lost profits, data loss, or goodwill) arising from use or inability to use the App, even if advised of the possibility.</li>
+<li>Our total liability to you is limited to the amount you paid us for App subscriptions in the <strong>twelve (12) months</strong> before the event giving rise to the claim; if you paid nothing, the limit is <strong>NT$1,000</strong> or the minimum amount permitted in your jurisdiction, whichever is higher where lawful.</li>
+</ul>
+<p>Some jurisdictions do not allow certain exclusions or limitations; the above applies only to the extent permitted there.</p>
+<hr>
+<h2 id="11-indemnification">11. Indemnification</h2>
+<p>If your violation of these Terms, infringement of others’ rights, or misuse of the App causes claims, losses, or expenses (including reasonable attorneys’ fees) against the Developer, our partners, or third parties, you agree to indemnify and hold the Developer harmless, except where prohibited by mandatory law.</p>
+<hr>
+<h2 id="12-changes-to-terms">12. Changes to Terms</h2>
+<p>We may revise these Terms. For material changes, we will notify you in the App or by other reasonable means and update the “Last updated” date. Continued use after the effective date constitutes acceptance. If you disagree, stop using the App and you may delete your account.</p>
+<hr>
+<h2 id="13-governing-law-and-jurisdiction">13. Governing Law and Jurisdiction</h2>
+<p>These Terms are governed by the laws of <strong>Taiwan (Republic of China)</strong>. Disputes shall be submitted to the <strong>Taipei District Court</strong> in Taiwan as the court of first instance, except where mandatory law provides otherwise.</p>
+<hr>
+<h2 id="14-contact">14. Contact</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Developer</td>
+<td>Hung Chen-Jung (individual developer)</td>
+</tr>
+<tr>
+<td>Application</td>
+<td>ThoughtsSky (<code>com.ataraxyfield.thoughtssky</code>)</td>
+</tr>
+<tr>
+<td>Email</td>
+<td><a href="mailto:ataraxyfield@gmail.com">ataraxyfield@gmail.com</a></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="15-other-language-versions">15. Other Language Versions</h2>
+<ul>
+<li><a href="terms-of-service-zh-TW.md">繁體中文</a></li>
+<li><a href="terms-of-service-ja.md">日本語</a></li>
+</ul>
+<p>Translations are provided for convenience. In case of conflict, the <strong>Traditional Chinese</strong> version prevails.</p>
+<hr>
+<h2 id="legal-notice">Legal Notice</h2>
+<p>These Terms are a draft based on App functionality and do not constitute legal advice. Review with qualified counsel before publication.</p>
+
+</body>
+</html>

@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>terms-of-service-ja.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="thoughtssky-%E5%88%A9%E7%94%A8%E8%A6%8F%E7%B4%84">ThoughtsSky 利用規約</h1>
+<p><strong>発効日：</strong> 2026年5月16日<br>
+<strong>最終更新：</strong> 2026年5月16日</p>
+<hr>
+<h2 id="1-%E8%A6%8F%E7%B4%84%E3%81%B8%E3%81%AE%E5%90%8C%E6%84%8F">1. 規約への同意</h2>
+<p>ThoughtsSky（以下「本アプリ」）へようこそ。本アプリは個人開発者 Hung Chen-Jung（以下「当方」または「開発者」）が提供します。</p>
+<p>本アプリのダウンロード、インストール、登録、または利用により、本利用規約（以下「本規約」）および<a href="privacy-policy-ja.md">プライバシーポリシー</a>に同意したものとみなします。同意されない場合は、本アプリをご利用にならないでください。</p>
+<hr>
+<h2 id="2-%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%AE%E8%AA%AC%E6%98%8E">2. サービスの説明</h2>
+<p>ThoughtsSky は、個人の思考の記録、整理、振り返りを支援します。主な機能は次のとおりです（これらに限定されません）。</p>
+<ul>
+<li>テキストまたは音声による思考の記録（灰雲／金雲／白雲の分類）；</li>
+<li>カレンダー表示と統計（宝箱）；</li>
+<li>否定的な思考を肯定的な表現へ変換（灰雲から金雲へ）；</li>
+<li>領域・感情・思考の習慣などのタグ（任意）；</li>
+<li>有料サブスクリプション機能（Premium、任意）。</li>
+</ul>
+<p>本アプリは<strong>自己理解と個人整理のためのツール</strong>であり、専門的なカウンセリングや医療診断を提供するものではありません。</p>
+<hr>
+<h2 id="3-%E9%87%8D%E8%A6%81%E3%81%AA%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85%E5%8C%BB%E7%99%82%E3%83%BB%E7%B7%8A%E6%80%A5%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%84">3. 重要な免責事項（医療・緊急サービスではない）</h2>
+<ul>
+<li>本アプリは<strong>医療行為、心理療法、カウンセリング、または専門的なメンタルヘルスサービスではありません</strong>。資格を有する専門家の助言、診断、治療に<strong>代わるものではありません</strong>。</li>
+<li>本アプリは<strong>緊急援助を提供しません</strong>。自傷、自殺、または直ちに人身安全に危険がある場合は、直ちに地域の緊急サービスまたは危機ホットラインに連絡してください。</li>
+<li>本アプリの利用に基づく判断は利用者ご自身の責任となり、開発者は当該判断に起因する行為について責任を負いません。</li>
+</ul>
+<hr>
+<h2 id="4-%E5%88%A9%E7%94%A8%E8%B3%87%E6%A0%BC">4. 利用資格</h2>
+<ul>
+<li>本アプリの利用には、<strong>13歳以上</strong>（またはお住まいの地域で要求されるそれ以上の年齢）である必要があります。</li>
+<li>正確かつ最新の登録情報を提供し、アカウント情報を適切に管理することに同意します。アカウント上の活動は、本人でないことが証明されない限り、利用者本人によるものとみなします。</li>
+<li>他人になりすましたり、許可なく他人のアカウントを使用したりしてはなりません。</li>
+</ul>
+<hr>
+<h2 id="5-%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88">5. アカウント</h2>
+<ul>
+<li>メールアドレスとパスワードで登録するか、匿名ログイン（機能が制限される場合があります）を選択できます。</li>
+<li>アプリの「アカウント」画面から<strong>アカウントを削除</strong>できます。当方は、お客様のアカウントに関連するクラウド上の思考データおよび Firebase 認証アカウントを削除します。<strong>この操作は取り消せません。</strong></li>
+<li>本規約違反、第三者の権利侵害、違法または不正利用がある場合、法令で禁止されない限り、アカウントおよびサービスへのアクセスを停止または終了することがあります。</li>
+</ul>
+<hr>
+<h2 id="6-%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84">6. ユーザーコンテンツ</h2>
+<h3 id="61-%E3%81%8A%E5%AE%A2%E6%A7%98%E3%81%AE%E6%A8%A9%E5%88%A9">6.1 お客様の権利</h3>
+<p>本アプリに入力、アップロード、または保存するコンテンツ（「ユーザーコンテンツ」）に関する権利はお客様に留保されます。必要な権利を有し、第三者の権利を侵害しないことを表明します。</p>
+<h3 id="62-%E5%BD%93%E6%96%B9%E3%81%B8%E3%81%AE%E8%A8%B1%E8%AB%BE">6.2 当方への許諾</h3>
+<p>サービスの提供、維持、改善のため、当方は、非独占的、全世界的、ロイヤルティ無料の許諾を受け、ログイン後にお客様本人が閲覧する範囲で、ユーザーコンテンツの保存、処理、バックアップ、同期、表示を行うことができます。お客様がコンテンツまたはアカウントを削除した後は、合理的な技術・法的保存期間（バックアップの消去など）を除き、当該許諾は終了します。</p>
+<h3 id="63-%E7%A6%81%E6%AD%A2%E4%BA%8B%E9%A0%85">6.3 禁止事項</h3>
+<p>次のコンテンツの投稿、送信、保存、または次の行為を行ってはなりません。</p>
+<ul>
+<li>法令違反、または知的財産権、プライバシー、名誉その他の権利の侵害；</li>
+<li>嫌がらせ、脅迫、憎悪・差別の助長、性的表現、児童の搾取；</li>
+<li>マルウェア、無断広告、スパム；</li>
+<li>当方または第三者サービスのシステムへの不正アクセス、妨害、過負荷。</li>
+</ul>
+<h3 id="64-%E6%8A%80%E8%A1%93%E4%B8%8A%E3%81%AE%E5%88%B6%E9%99%90">6.4 技術上の制限</h3>
+<p>1件の思考は<strong>500文字</strong>まで。タグ数などの制限はアプリ内の表示に従います。サービス品質維持のため、技術制限を変更することがあります。</p>
+<hr>
+<h2 id="7-%E3%82%B5%E3%83%96%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%A8%E6%94%AF%E6%89%95%E3%81%84premium">7. サブスクリプションと支払い（Premium）</h2>
+<ul>
+<li>一部の機能（例：過去日付のカレンダー閲覧、当日以外での灰雲の変換）は、<strong>Google Play</strong> 経由の<strong>月額サブスクリプション</strong>（Premium）が必要です。価格、通貨、プランは Google Play の決済画面に表示されます。</li>
+<li>サブスクリプションは、Google Play のアカウント設定で解約するまで<strong>自動更新</strong>される場合があります。更新料金は Google の規則に従い、当期終了前に請求されます。</li>
+<li><strong>返金、解約、請求に関する紛争</strong>は <a href="https://support.google.com/googleplay/answer/2479637">Google Play の返金ポリシー</a> および適用されるストア規約に従います。Google にお問い合わせいただくか、その手続に従ってください。開発者はクレジットカード情報を直接処理しません。</li>
+<li>アプリの「アカウント」で<strong>購入の復元</strong>（Restore purchases）により、新しい端末または再インストール後にサブスクリプション状態を復元できます（同一の Google Play アカウントが必要です）。</li>
+<li>無料・有料機能の範囲を変更することがあります。重要な変更は合理的な方法で通知します。</li>
+</ul>
+<hr>
+<h2 id="8-%E7%9F%A5%E7%9A%84%E8%B2%A1%E7%94%A3%E6%A8%A9">8. 知的財産権</h2>
+<p>本アプリのソフトウェア、インターフェース、アイコン、テキスト（ユーザーコンテンツを除く）、商標その他の素材は、特に表示がない限り、開発者またはライセンサーに帰属し、著作権その他の法律で保護されます。</p>
+<p>事前の書面による同意なく、複製、改変、配布、販売、貸与、リバースエンジニアリング、または派生物の作成を行ってはなりません。</p>
+<hr>
+<h2 id="9-%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%AE%E5%A4%89%E6%9B%B4%E3%81%A8%E5%8F%AF%E7%94%A8%E6%80%A7">9. サービスの変更と可用性</h2>
+<p>機能（無料・有料を問わず）の更新、変更、中止、およびメンテナンスによる一時停止を行うことがあります。当方は合理的な努力で安定性を維持しますが、<strong>中断のない運用、エラーの不存在、期待への完全な適合を保証しません</strong>。</p>
+<p>ネットワーク、第三者サービス（Firebase、Google Play 等）、不可抗力による中断について、法令で許される範囲で開発者は賠償責任を負いません。</p>
+<hr>
+<h2 id="10-%E8%B2%AC%E4%BB%BB%E3%81%AE%E5%88%B6%E9%99%90">10. 責任の制限</h2>
+<p>法令で許される最大限の範囲で：</p>
+<ul>
+<li>本アプリは「現状有姿」で提供されます。法令で義務付けられる場合を除き、商品性、特定目的への適合性を含む一切の明示・黙示の保証を否認します。</li>
+<li>本アプリの利用または利用不能に起因する<strong>間接的、付随的、特別、結果的、または懲罰的損害</strong>（利益の喪失、データ損失、信用の毀損等）について、当方は責任を負いません（当該可能性を告知されていた場合を含みます）。</li>
+<li>当方のお客様に対する賠償責任の総額は、請求原因となる事象の前 <strong>12か月</strong>間に本アプリのサブスクリプションとしてお客様が実際に支払った金額を上限とします。未払いの場合は <strong>新臺幣1,000元（NT$1,000）</strong> またはお住まいの地域で認められる最低額のいずれか高い方（合法な範囲）とします。</li>
+</ul>
+<p>一部の法域では特定の免責・制限が認められないため、上記は当該法域で許される範囲でのみ適用されます。</p>
+<hr>
+<h2 id="11-%E8%A3%9C%E5%84%9F">11. 補償</h2>
+<p>お客様が本規約に違反し、第三者の権利を侵害し、または本アプリを不正利用したことにより、開発者、提携先、または第三者に対して請求、損失、費用（合理的な弁護士費用を含む）が生じた場合、法令で禁止されない限り、お客様は開発者を補償し、免責することに同意します。</p>
+<hr>
+<h2 id="12-%E8%A6%8F%E7%B4%84%E3%81%AE%E5%A4%89%E6%9B%B4">12. 規約の変更</h2>
+<p>本規約を改定することがあります。重要な変更については、アプリ内またはその他の合理的な方法で通知し、「最終更新」日を更新します。発効後も利用を継続した場合、新規約に同意したものとみなします。同意されない場合は利用を中止し、アカウントを削除できます。</p>
+<hr>
+<h2 id="13-%E6%BA%96%E6%8B%A0%E6%B3%95%E3%81%A8%E7%AE%A1%E8%BD%84">13. 準拠法と管轄</h2>
+<p>本規約は<strong>中華民国（台湾）の法律</strong>に準拠します。本規約または本アプリに起因する紛争については、法令の強行規定を除き、<strong>台湾台北地方法院</strong>を第一審の専属的合意管轄裁判所とします。</p>
+<hr>
+<h2 id="14-%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B">14. お問い合わせ</h2>
+<table>
+<thead>
+<tr>
+<th>項目</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>開発者</td>
+<td>Hung Chen-Jung（個人開発者）</td>
+</tr>
+<tr>
+<td>アプリケーション</td>
+<td>ThoughtsSky（<code>com.ataraxyfield.thoughtssky</code>）</td>
+</tr>
+<tr>
+<td>メール</td>
+<td><a href="mailto:ataraxyfield@gmail.com">ataraxyfield@gmail.com</a></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="15-%E4%BB%96%E8%A8%80%E8%AA%9E%E7%89%88">15. 他言語版</h2>
+<ul>
+<li><a href="terms-of-service-zh-TW.md">繁體中文</a></li>
+<li><a href="terms-of-service-en.md">English</a></li>
+</ul>
+<p>各言語版は便宜上提供されます。解釈に相違がある場合は<strong>繁體中文</strong>版が優先します。</p>
+<hr>
+<h2 id="%E6%B3%95%E7%9A%84%E5%A3%B0%E6%98%8E">法的声明</h2>
+<p>本規約はアプリの機能に基づく草案であり、法的助言を構成しません。公開前に専門家による確認をお勧めします。</p>
+
+</body>
+</html>
